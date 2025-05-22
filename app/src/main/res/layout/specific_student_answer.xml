@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_gradient_background"
+    tools:context=".SeeAnswerOfSpecificStudents"
+    >
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#000000"
+        android:id="@+id/toolbar_of_specific_answer"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:elevation="4dp"
+        app:title="Subject Name"
+        android:paddingLeft="15dp"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        >
+
+        <LinearLayout
+            android:id="@+id/answerContainerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/cn_see"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class Name"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/sn_see"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject Name"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/sc_see"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject Code"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/fm_see"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full Marks"
+                android:textSize="18sp"
+                />
+            <View
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black"
+                />
+            <TextView
+                android:id="@+id/stnn_see"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Student Name:"
+                android:textSize="18sp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/createsmallnavy"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/stnr_see"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Student Roll No. :"
+                android:textSize="18sp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/questionsmallnavy"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:id="@+id/stnE_see"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Subject Code"
+                android:textSize="18sp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/emailsmallnavy"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:id="@+id/stnID_see"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/cardsmallnavy"
+                android:text="   ID No. :"
+                android:textSize="18sp"
+                android:gravity="left"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <View
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assign Marks:"
+                android:textSize="20sp"
+                />
+            <EditText
+                android:id="@+id/assignedMarks_see"
+                android:padding="10dp"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/input_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Marks"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/submit_btn_see"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_gravity="right"
+            android:textStyle="bold"
+            android:backgroundTint="#FF4081"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="30dp"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.FacultyPanel.FacultyDetail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/home_gradient_background">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Profile Image -->
+            <ImageView
+                android:id="@+id/profileImage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/ic_name"
+                android:layout_marginBottom="24dp"
+                android:scaleType="centerCrop"
+                android:padding="8dp" />
+
+            <!-- Name Card -->
+            <include
+                android:id="@+id/cardNameUser"
+                layout="@layout/user_info_card" />
+
+            <!-- Email Card -->
+            <include
+                android:id="@+id/cardEmailUser"
+                layout="@layout/user_info_card" />
+
+            <!-- Phone Card -->
+            <include
+                android:id="@+id/cardPhoneUser"
+                layout="@layout/user_info_card" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ExamConductor"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activities.FacultyPanel.CreateQuestion.CreateObjectiveQuestion"
+            android:exported="false" />
+        <activity android:name=".SeeAnswerOfSpecificStudents" />
+        <activity android:name=".AnswerShowInListViewStudents" />
+        <activity android:name=".QuestionHolderAct" />
+        <activity android:name=".ResponseStart" />
+        <activity android:name=".ShowFinalResult" />
+        <activity android:name=".AnswerShowQuestionLV" />
+        <activity android:name=".ResultQuestionLVShow" />
+        <activity android:name=".QuestionShowWhenClickOnList" />
+        <activity android:name=".ShowQuestionInListView" />
+        <activity android:name=".Activities.FacultyPanel.FacultyDetail" />
+        <activity android:name=".Activities.FacultyPanel.CreateQuestion.CreateSubjectiveQuestion" />
+        <activity android:name=".Activities.FacultyPanel.CreateQuestion.QuestionDetails" />
+        <activity android:name=".Activities.FacultyPanel.FacultyPanel" />
+        <activity android:name=".Activities.JoinExam.QuestionSheet" />
+        <activity android:name=".Activities.JoinExam.ExamIdValidator" />
+        <activity android:name=".Activities.JoinExam.StudentJoinExam" />
+        <activity android:name=".Activities.FacultyRegister" />
+        <activity android:name=".Activities.FacultyLogin" />
+        <activity android:name=".Activities.HomeActivity" />
+        <activity
+            android:name=".Splash_Activity_0312"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Tester</string>
+
+    <string name="app_name_20180107_0312">Exam Conductor</string>
+    <string name="plesae_enter_password">  Please Enter Password*</string>
+    <string name="plesae_enter_email">  Please Enter Email*</string>
+    <string name="register">Register</string>
+    <string name="join_exam">+ Join exam</string>
+    <string name="plesae_enter_name">  Please Enter Name*</string>
+    <string name="plesae_enter_mobile_number">  Please Enter Mobile Number*</string>
+    <string name="please_enter_password">  Please Enter Password*</string>
+    <string name="conform_password">  Conform Password*</string>
+    <string name="forget_password">  Forget Password ?</string>
+    <string name="click_here"> click here</string>
+    <string name="please_enter_roll_no">  Please Enter Roll No.*</string>
+    <string name="please_enter_id_card_no">  Please Enter Id Card No.</string>
+    <string name="next">Next</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_exam_passcode">Enter Exam Passcode</string>
+    <string name="exam_id">Exam ID</string>
+    <string name="join">Join</string>
+    <string name="admin_details">Admin Details</string>
+    <string name="make_question">Make Question</string>
+    <string name="start_response">Start Response</string>
+    <string name="check_answer">Check Answer</string>
+    <string name="show_result">Show Result</string>
+
+    <string name="top_icon">TOP ICON</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">FORGOT PASSWORD?</string>
+    <string name="or">OR</string>
+    <string name="google_icon">google icon</string>
+    <string name="facebook_icon">facebook icon</string>
+    <string name="new_user_register_now">New User? Register Now</string>
+    <string name="name">Name</string>
+    <string name="show_question">show Question</string>
+    <string name="class_name">Class Name</string>
+    <string name="subject_name">Subject Name</string>
+    <string name="subject_code">Subject Code</string>
+    <string name="full_marks">Full Marks</string>
+    <string-array name="responseType">
+        <item>-- Response Type --</item>
+        <item>Start</item>
+        <item>Stop</item>
+    </string-array>
+    <string-array name="question_type">
+        <item>-- Select Question --</item>
+        <item>Subjective/Discriptive</item>
+        <item>Objective</item>
+    </string-array>
+</resources>
